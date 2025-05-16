@@ -18,7 +18,7 @@ class MainApp extends StatelessWidget {
           fit: StackFit.expand,
           children: [
             Image( // ----Widget tipo imágen
-              // image: AssetImage('assets/images/IMG_0001.jpeg'), ----Imágen local
+              // image: AssetImage('assets/images/IMG_0001.jpeg'), ----Imágen local hola
               image: NetworkImage('https://consejodehermandadesdeutrera.org/wp-content/uploads/2025/04/2025-04-15-estudiantes3V7A4633.jpg'),
               fit: BoxFit.cover,
             ),
